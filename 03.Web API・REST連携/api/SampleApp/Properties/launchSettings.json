@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Reports Web CSharp Sample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "demo/reports.web/samples/dotnet/",
+      "applicationUrl": "http://127.0.0.1:8093",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "REPORTS_TRUSTED_ASSET_BASES": "http://127.0.0.1:8088/samples/php/api.php?action=asset&name=,http://127.0.0.1:8091/demo/reports.web/samples/java/api?action=asset&name=,http://127.0.0.1:8092/demo/reports.web/samples/node/api?action=asset&name="
+      }
+    }
+  }
+}

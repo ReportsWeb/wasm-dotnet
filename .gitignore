@@ -1,0 +1,7 @@
+bin/
+obj/
+output/
+*.nupkg
+local-packages/
+NuGet.Config
+.env
